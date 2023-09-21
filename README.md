@@ -10,6 +10,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/justwaitfor-me/decode_things">
+    <img src="img\decode.png" alt="Logo" width="80" height="80">
+
+   <a href="https://www.flaticon.com/free-icons/decode" title="decode icons">Icons created by Freepik - Flaticon</a>
   </a>
 
 <h3 align="center">DECODE_THINGS</h3>
@@ -53,6 +56,7 @@
 ## About The Project
 
 <p align="center">
+<img src="img\logo.png" alt="Logo" width="190" height="190">
 
 
 Decode_things is an open source Python project for decoding ASCII, Unicode, binary, URL or hex code.
