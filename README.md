@@ -89,7 +89,7 @@ Decode_things is an open source Python project for decoding ASCII, Unicode, bina
    ```
 2. Import the Package
    ```sh
-   from decode_things import *
+   from decode_things import decode
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
