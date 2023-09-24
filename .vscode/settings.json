@@ -1,6 +1,6 @@
 {
     "files.exclude": {
-        ".vscode": false,
-        "stage": false
+        ".vscode": true,
+        "stage": true
     }
 }

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Decode_Things"
-version = "0.0.3"
+version = "0.0.4"
 description = "A package that allows to decode code."
 readme = "README.md"
 authors = [{ name = "JustWait", email = "justwaitnano@gmail.com" }]
