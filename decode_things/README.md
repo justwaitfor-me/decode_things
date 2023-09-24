@@ -9,9 +9,6 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/justwaitfor-me/decode_things">
-  </a>
-
 <h3 align="center">DECODE_THINGS</h3>
 
   <p align="center">
@@ -35,12 +32,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -53,7 +44,6 @@
 ## About The Project
 
 <p align="center">
-
 
 Decode_things is an open source Python project for decoding ASCII, Unicode, binary, URL or hex code.
 
@@ -69,24 +59,6 @@ Decode_things is an open source Python project for decoding ASCII, Unicode, bina
 
 ![discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-### Installation
-
-1. Install PIP packages
-   ```sh
-   pip install decode_things
-   ```
-2. Import the Package
-   ```sh
-   from decode_things import *
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
