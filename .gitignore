@@ -112,8 +112,6 @@ ENV/
 env.bak/
 venv.bak/
 
-src/pyOpenAnnotate.egg-info
-
 # Spyder project settings
 .spyderproject
 .spyproject
