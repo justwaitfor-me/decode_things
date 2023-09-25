@@ -2,9 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+#vscode
+*.vscode
 .pypirc
 /testing
-.vscode
 
 # C extensions
 *.so

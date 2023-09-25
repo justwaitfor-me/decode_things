@@ -1,4 +1,21 @@
+import json
+from termcolor import colored
+from urllib.parse import urlparse
+import requests
+
+with open('src/tools/errors.json', 'r') as f:
+    errors = json.load(f)
+
+def valid_url(url):
+    try:
+        result = urlparse(url)
+        return all([result.scheme, result.netloc, result.path])
+    except ValueError:
+        return False
+
 def domain(url):
+    if valid_url(url) == False:
+        raise ValueError(colored(errors["ValueError"]["msg"], "red"))
     if "https://" in url:
         if "https://www." in url:
             change = url[12:]
@@ -34,14 +51,28 @@ def domain(url):
             return end
             
     else:
-        return "pleas enter a valid url!"
+        raise ValueError(colored(errors["ValueError"]["msg"], "red"))
     
 def censor(string):
-    # TODO errors vermeiden
-    exp = ['a', 'e', 'i', 'o', 'u', 'y']
-    res  = ""
-    for i in string:
-        if not i.lower() in exp:
-            res += i    
-    return res
+    if isinstance(string, str):
+        exp = ['a', 'e', 'i', 'o', 'u', 'y']
+        res  = ""
+        for i in string:
+            if not i.lower() in exp:
+                res += i    
+        return res
+    else:
+        raise TypeError(colored(errors["TypeError"]["msg"], "red"))
+    
+def online_url(url):
+    if valid_url(url) == False:
+        raise ValueError(colored(errors["ValueError"]["msg"], "red"))
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            return True
+        else:
+            return False
+    except requests.exceptions.RequestException:
+        return False
 
