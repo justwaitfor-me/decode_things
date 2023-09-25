@@ -10,7 +10,7 @@ readme = "README.md"
 authors = [{ name = "JustWait", email = "justwaitnano@gmail.com" }]
 license = { file = "LICENSE" }
 classifiers = [
-    "Development Status :: Alpha",
+    "Development Status :: 3 - Alpha",
     "Operating System :: OS Independent",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
