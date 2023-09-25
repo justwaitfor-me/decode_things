@@ -1,9 +1,0 @@
-{
-    "files.exclude": {
-        ".vscode": true,
-        "stage": true,
-        "decode_things\\build": true,
-        "decode_things\\src\\Decode_Things.egg-info": true,
-        "decode_things\\dist": true
-    }
-}
