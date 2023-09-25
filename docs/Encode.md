@@ -1,7 +1,8 @@
 # Modul: Encode
 
-## str_hex(arg)
+## str_hex(string)
 arg: string
+
 return: hexcode
 
 Example:
@@ -12,8 +13,9 @@ hex = encode.str_hex("abc")
 print(hex)
 ```
 
-## int_hex(arg)
+## int_hex(integer)
 arg: integer
+
 return: hexcode
 
 Example:

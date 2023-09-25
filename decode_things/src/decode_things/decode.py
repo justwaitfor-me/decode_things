@@ -2,6 +2,7 @@ import json
 from termcolor import colored
 from urllib.parse import urlparse
 import requests
+import xmltodict
 
 with open('src/tools/errors.json', 'r') as f:
     errors = json.load(f)
@@ -75,4 +76,20 @@ def online_url(url):
             return False
     except requests.exceptions.RequestException:
         return False
+    
+def xml_json(path, file_name='output.json'):
+    if not isinstance(path, str) or not isinstance(file_name, str):
+        raise TypeError(colored(errors["TypeError"]["msg"], "red"))
+    with open(path, 'r') as file:
+        xml_data = file.read()
+    try:
+        data_dict = xmltodict.parse(xml_data)
+    except:
+        raise ValueError(colored(errors["ValueError"]["msg"] + "\n(the given .xml file is not valid)", "yellow"))
+    
+    json_data = json.dumps(data_dict)
+
+    with open(file_name, 'w') as file:
+        file.write(json_data)
+        
 

@@ -7,6 +7,10 @@ __pycache__/
 *.vscode
 .pypirc
 /testing
+vscode
+.vscode
+/.vscode
+*/.vscode
 
 # C extensions
 *.so

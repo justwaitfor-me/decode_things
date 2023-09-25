@@ -4,19 +4,19 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Decode_Things"
-version = "0.0.5"
-description = "A package that allows to decode code."
+version = "0.0.6"
+description = "A package that allows to decode and encode code."
 readme = "README.md"
 authors = [{ name = "JustWait", email = "justwaitnano@gmail.com" }]
 license = { file = "LICENSE" }
 classifiers = [
-    "Development Status :: 1 - Planning",
+    "Development Status :: Alpha",
     "Operating System :: OS Independent",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
-keywords = ["Annotation", 
+keywords = ["Decode Things", 
 	    "decode", 
 	    "decoding",
 	    "decode_things",
@@ -27,7 +27,10 @@ keywords = ["Annotation",
 	    "url",
 	    "object",
 	    "python",
-	    "decode url"
+	    "decode url",
+		"pypi",
+		"encode",
+		"encodeing"
 	    ]
 dynamic = ["dependencies"]
 requires-python = ">=3.5"
