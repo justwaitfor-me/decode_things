@@ -1,10 +1,14 @@
 <a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
+[![Discord][discord-shield]][discord-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+[![Releases][releases-shield]][releases-url]
+
+
+
 
 
 <br />
@@ -137,9 +141,11 @@ Project Link: [https://github.comjustwaitfor-me/decode_things](https://github.co
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/justwaitfor-me/decode_things.svg?style=for-the-badge
 [contributors-url]: https://github.com/justwaitfor-me/decode_things/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/justwaitfor-me/decode_things.svg?style=for-the-badge
-[forks-url]: https://github.com/justwaitfor-me/decode_things/network/members
+[releases-shield]: https://img.shields.io/github/v/release/justwaitfor-me/decode_things?style=for-the-badge
+[releases-url]: https://github.com/justwaitfor-me/decode_things/releases
 [stars-shield]: https://img.shields.io/github/stars/justwaitfor-me/decode_things.svg?style=for-the-badge
+[discord-url]: https://discord.gg/MKgCdKtHNe
+[discord-shield]: https://img.shields.io/discord/946412830100443156?style=for-the-badge
 [stars-url]: https://github.com/justwaitfor-me/decode_things/stargazers
 [issues-shield]: https://img.shields.io/github/issues/justwaitfor-me/decode_things.svg?style=for-the-badge
 [issues-url]: https://github.com/justwaitfor-me/decode_things/issues
